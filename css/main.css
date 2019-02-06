@@ -1,0 +1,74 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/welcome.jpg);
+    flex: 1;
+    /* width: 900px; */
+    /* when you have the same value for a property is better to write as parent */
+    margin: auto;
+    display: flex;
+    font-family: monospace;
+    flex-direction: column;
+}
+
+header {   
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav {
+    display: flex;
+    flex: 1;
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li.active a {
+    border: solid white;
+}
+
+.main-nav li a:hover {
+    border: 1px solid white;
+}
+
+.login {    
+    display: inline-flex;
+    margin-top: -25%;
+    align-self: center;
+}
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+}
+
+.button {
+    align-self: center;
+}
+
+.btn {
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.btn-one {
+    font-family: "Roboto", sans-serif;
+    background-color: blue;
+}
