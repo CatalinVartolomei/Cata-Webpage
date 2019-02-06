@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User Account Registration</title>
+        <link rel="stylesheet" type="text/css" href="css/signupstyle.css">
+    </head>
+
+    <body>
+            <header>
+                    <div class="row">
+                        <ul class="main-nav">
+                                <li><a href="Homepage.html">HOME</a></li>
+                                <li><a href="Services.html">SERVICES</a></li>
+                                <li><a href="About.html">ABOUT</a></li>
+                                <li><a href="Contact.html">CONTACT</a></li>
+                                <li><a href="News.html">NEWS</a></li>
+                                <li><a href="FAQ.html">FAQ</a></li>
+                        </ul>
+                    </div> 
+
+        <div class="simple form">
+            
+            <form id="Registration">
+                <br><br><br><br><br><br><br><br>                
+
+                <input type="text" name="fname" id="button" placeholder="First Name" required><br><br>
+                <input type="text" name="lname" id="button" placeholder="Last Name" required><br><br>
+                <input type="email" name="email" id="button" placeholder="E-mail Address" required><br><br>
+                <input type="username" name="username" id="button" placeholder="Username" required><br><br>
+                <input type="password" name="password" id="button" placeholder="Password" required><br><br>
+                <select id="pn"><option>+40</option></select>
+                <input type="number" name="num" placeholder="Telephone Number" id="pn"><br><br>
+                <input type="radio" name="gender" id="radio" required><span id="radio">Male</span>
+                <input type="radio" name="gender" id="radio"><span id="radio">Female</span><br><br><br>
+                <input type="submit" value="Sign Up"  id="rbutton"
+                onclick="window.location.href='UserCreatedPage.html'"><br><br>
+
+        </div>
+
+        <div class="or">OR</div><br>
+
+        <div>
+        <span class="signinwith">Sign in with<br />Social Network</span><br><br>
+            <button class="social facebook" id="flog">Log in with Facebook</button><br><br>
+            <button class="social google" id="glog">Log in with Google+</button>            
+        </div> 
+                
+            <script> src="js/registration.js"</script>
+                
+            </form>                        
+        </div>
+        </header>
+    </body>
+</html>

@@ -1,0 +1,96 @@
+body{
+    background-image: url(../images/SignUp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+#button{
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#rbutton{
+    width: 250px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    text-align: center; 
+    background-color: #026610;      
+}
+#rbutton:hover {
+    background-color: rgb(3, 247, 44);
+    transition: all 0.3s ease-in;
+  }
+
+#pn{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1.5px solid;
+}
+
+#radio{
+
+    color: white;
+}
+
+#class{
+
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;    
+}
+
+.or{
+
+    color: rgb(255, 0, 0);
+}
+
+.signinwith{
+
+    color: rgb(3, 247, 44);
+}
+
+#flog{
+    color: white;
+    background-color: #32508e;
+}
+
+#glog{
+    color: white;
+    background-color: #55acee;
+}
+
+.main-nav {
+
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.main-nav li {
+
+    display: inline-block;
+}
+
+.main-nav li a {
+
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li a:hover {
+
+    border: 1px solid white;
+}
+
+.row {
+
+    max-width: 1200px;
+    margin-inline-start: auto;
+}
